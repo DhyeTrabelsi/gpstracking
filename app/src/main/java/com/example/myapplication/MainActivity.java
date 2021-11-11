@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // This method will be executed once the timer is over
-                Intent i = new Intent(MainActivity.this, singup.class);
+                Intent i = new Intent(MainActivity.this, voiture.class);
                 startActivity(i);
                 finish();
                 overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
